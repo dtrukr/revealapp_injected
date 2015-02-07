@@ -45,7 +45,7 @@ Finally, choose and app that you want to inspect, kill and restart the App you w
 
 ### How to uninstall
 
- dpkg -r com.open.revealinjected
+ dpkg -r com.daapps.revealinjected
 
 
 Build
