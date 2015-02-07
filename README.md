@@ -1,7 +1,7 @@
 # revealapp_injected
 Injecting Reveal with MobileSubstrate
 
-Reveal (http://revealapp.com) is a cool prototyping tool allowing you to perform runtime inspection of an iOS application. Reveak is primarily intended to be a tool used in your own apps.  Want to learn how other apps are built? Just inject Reveal's library into 3rd part apps and explore.
+Reveal (http://revealapp.com) is a cool prototyping tool allowing you to perform runtime inspection of an iOS application. Reveak is primarily intended to be a tool used in your own apps.  Want to learn how other apps are built? Just inject Reveal's library into 3rd party apps and explore.
 
 Requires a jailbroken iOS device.
 
