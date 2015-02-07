@@ -1,0 +1,28 @@
+entry = {
+  bundle = AppList;
+  cell = PSLinkCell;
+  icon = "/Library/PreferenceLoader/Preferences/RevealInjected.png";
+  isController = 1;
+  label = RevealInjected;
+  ALSettingsPath = "/var/mobile/Library/Preferences/com.daapps.revealinjected.plist";
+  ALSettingsKeyPrefix = "RevealInjectedEnabled-";
+  ALChangeNotification = "com.daapps.revealinjected.settingschanged";
+  ALSettingsDefaultValue = 0;
+  ALSectionDescriptors = (
+  	{
+  	  title = "System Applications";
+  	  predicate = "(isSystemApplication = TRUE)";
+  	  "cell-class-name" = "ALSwitchCell";
+  	  "icon-size" = 29;
+  	  "suppress-hidden-apps" = 1;
+  	},
+  	{
+  	  title = "User Applications";
+  	  predicate = "(isSystemApplication = FALSE)";
+  	  "cell-class-name" = "ALSwitchCell";
+  	  "icon-size" = 29;
+  	  "suppress-hidden-apps" = 1;
+  	  "footer-title" = "© 2010-2013 Dennis Torbichuk\n© 2013 Itty Bitty Apps Pty Ltd.";
+  	}
+  );
+};
