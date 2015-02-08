@@ -1,5 +1,5 @@
-# revealapp_injected
-Injecting Reveal with MobileSubstrate
+# Reveal Injected
+Injecting RevealApp with MobileSubstrate
 
 Reveal (http://revealapp.com) is a cool prototyping tool allowing you to perform runtime inspection of an iOS application. Reveal is primarily intended to be a tool used in your own apps.  Want to learn how other apps are built? Just inject Reveal's library into 3rd party apps and explore.
 
@@ -26,7 +26,7 @@ The tool was tested on iOS8 running on an iPhone 5S.
 
 Download and copy the Debian package to the device; install it:  
 
-    dpkg -i com.daapps.revealinjected_0.0.1-1-3_iphoneos-arm
+    dpkg -i com.daapps.revealinjected_0.0.1-1-3_iphoneos-arm.deb
 
 Respring the device:
 
