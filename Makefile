@@ -1,9 +1,9 @@
-ARCHS = armv7 arm64
+ARCHS = armv7 armv7s arm64
 include theos/makefiles/common.mk
 
 ADDITIONAL_CFLAGS = -Os
-SDKVERSION = 8.1
-INCLUDE_SDKVERSION = 8.1
+SDKVERSION = 9.3
+INCLUDE_SDKVERSION = 9.3
 TARGET_IPHONEOS_DEPLOYMENT_VERSION = 7.0
 TARGET_CC = xcrun -sdk iphoneos clang
 TARGET_CXX = xcrun -sdk iphoneos clang++
